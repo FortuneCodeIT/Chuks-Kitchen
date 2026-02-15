@@ -1,40 +1,20 @@
-🍲 Chuks Kitchen – Landing Page
+chuks-kitchen
 
-A modern and responsive restaurant landing page for Chuks Kitchen, showcasing authentic Nigerian cuisine and food delivery services.
+This is a responsive restaurant landing page built using HTML and CSS. It showcases authentic Nigerian cuisine and promotes online food ordering.
 
-📌 Project Overview
+Features
 
-Chuks Kitchen is a responsive website designed to promote Nigerian home-style cooking and encourage customers to place orders online. The page highlights authenticity, fresh preparation, and reliable delivery services.
+Responsive design (Desktop & Mobile)
 
-This project focuses on:
+Hero section with adaptive images
 
-Responsive design (desktop & mobile)
+Clean and modern UI
 
-Clean layout structure
+Call-to-action buttons
 
-Modern UI styling
+Footer with contact and social links
 
-Brand presentation
-
-
-✨ Features
-
-📱 Fully Responsive Design (Desktop & Mobile Views)
-
-🖼️ Hero Section with Adaptive Images
-
-🍛 Highlighted Service Features
-
-🔐 Sign In Buttons (Desktop & Mobile)
-
-📦 Call-to-Action Buttons
-
-📍 Footer with Contact & Social Links
-
-🎨 Google Fonts Integration (Island Moments)
-
-
-🛠️ Built With
+Technologies Used
 
 HTML5
 
@@ -42,7 +22,11 @@ CSS3
 
 Google Fonts
 
+Live Demo
+[Click Here]()
 
-🌐 Live Demo
+Click Here
 
-🔗 View Live Project: []
+Author
+
+Fortunatus

@@ -67,7 +67,7 @@ header button {
 
 .hero-img {
     position: relative;
-    background-image: url('img/m25.png');
+    background-image: url('../img/m25.png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ header button {
 
 .hero-img1 {
     position: relative;
-    background-image: url('img/b1.png');
+    background-image: url('../img/b1.png');
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,7 +376,7 @@ header,
 }
 
 .hero-img {
-    background-image: url('img/m9.jpg');
+    background-image: url('../img/m9.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -461,7 +461,7 @@ header,
 }
 
 .hero-img1 {
-    background-image: url('img/f1.png');
+    background-image: url('../img/f1.png');
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -490,4 +490,5 @@ header,
     display: none;
 }
 }
+
 

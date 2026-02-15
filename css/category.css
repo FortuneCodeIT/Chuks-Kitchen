@@ -67,7 +67,7 @@ header button {
 
 .hero-img {
     position: relative;
-    background-image: url('../img/m25.png');
+    background-image: url('../img/m26.png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -490,5 +490,6 @@ header,
     display: none;
 }
 }
+
 
 

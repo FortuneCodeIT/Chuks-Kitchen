@@ -68,7 +68,7 @@ header button {
 
 .hero-img {
     position: relative;
-    background-image: url('../img/m26.png');
+    background-image: url('/img/m26.png');
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ header button {
 }
 .text-pad h4 {
     font-size: 16px;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 .text-pad p {
     font-size: 12px;
@@ -305,6 +305,142 @@ header button {
     border-radius: 50px;
     padding: 6px;
     margin-right: 20px;
-
 }
 
+.mobile-svg,
+#mobileHero-img,
+#mobile-view,
+.mobile-hero-img  {
+    display: none;
+}
+
+@media (max-width: 768px) {
+header,
+.hideOnMobile,
+#desktopHero-img,
+.desktop-hero-img {
+        display: none;
+}
+
+#mobileHero-img,
+.menu-button,
+#mobile-view,
+.mobile-hero-img {
+    display: block;
+}
+#desktop-card {
+    display: none;
+}
+
+.mobile-svg {
+    background: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-svg h1 {
+    font-size: 24px;
+    font-family: 'Island Moments', cursive;
+     color: #ff7a18;
+}
+
+.hero-img {
+    background-image: url('/img/m9.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heart {
+    padding: 0 20px;
+
+}
+.heart h1 {
+    max-width: 800px;
+    margin: 20px 0;
+    font-size: 38px;
+    align-self: center;
+}
+.heart p {
+    max-width: 600px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.menu-container {
+    padding: 0;
+    margin-bottom: 20px ;
+}
+.menu-list-container {
+    border-radius: 10px;
+    padding: 20px 0 60px 0;
+}
+.menu-list h4 {
+    font-size: 24px;
+}
+.food-type p{
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.popular-container {
+    padding: 0 10px;
+}
+.popular-container a {
+    font-size: 20px;
+    margin: 20px 0 60px 0 ;
+    color: #1E88E5;
+    text-decoration: none;
+    text-align: center;
+}
+.popular-container h4 {
+    margin: 5px 0;
+}
+.special-container {
+    padding: 20px 20px;
+    margin-bottom: 40px;
+}
+
+.special-grid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    gap: 20px;
+}
+
+.special {
+    display: flex;
+    background: #ffffff;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+.special img {
+    width: 35%;
+    
+}
+.text-pad h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.text-pad p {
+    font-size: 14px;
+    color: #575656;
+    padding: 5px 0;
+}
+.cart {
+    margin-top:0 ;
+    margin-bottom: 0;
+    padding: 5px 0 0 0;
+}
+.cart span {
+    font-size: 16px;
+}
+
+
+.footer-container,
+.just-background {
+    display: none;
+}
+}

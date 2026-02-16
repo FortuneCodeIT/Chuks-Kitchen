@@ -420,6 +420,9 @@ header,
     width: 35%;
     
 }
+.text-pad {
+    flex: 1;
+}
 .text-pad h4 {
     font-size: 16px;
     font-weight: 600;
@@ -444,6 +447,7 @@ header,
     display: none;
 }
 }
+
 
 
 

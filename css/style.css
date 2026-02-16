@@ -22,8 +22,6 @@ body{
 .hero {
     display: flex;
     height: 100vh;
-    padding: 0 20px;
-    
 }
 .left {
     width: 50%;
@@ -144,7 +142,6 @@ body{
     padding: 40px 60px;
     display: flex;
     flex-direction: column;
-    margin: 0 20px;
 }
 .footer {
     display: flex;
@@ -185,7 +182,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-right: 15%;
+    margin-right: 20%;
 }
 .footer .contact p {
     color: #cebcaf;
@@ -636,4 +633,5 @@ gap: 5px;
 
 }
 }
+
 

@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    padding: 10px 40px;
+    max-width: 1400px;
+}
+.header   {
+    display: flex;
+    align-items: center;
+}
+.header h1 {
+    font-family:  'Island Moments', cursive;
+    color: #ff7a18;
+}
+.header ul   {
+     display: flex;
+    align-items: center;
+ 
+}
+.header ul li {
+    padding: 0 60px;
+    list-style: none;
+}
+.header ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+.header ul li a.active {
+    color: #ff7a18;
+}
+
+header button {
+    background: #ff7a18;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 12px;
+}
+/* this is the for the mobile nav bar toggle */
+.menu-button {
+    display: none;
+ }
+
+.hero-img {
+    position: relative;
+    background-image: url('/img/m25.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.heart {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    color: #ffffff;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.heart h1 {
+     max-width: 600px;
+     margin: 20px 0;
+     font-size: 38px;
+     align-self: center;
+     
+}
+.heart p {
+    max-width: 600px;
+    font-size: 26px;
+    margin: 20px 0;
+}
+.heart button {
+     background: #ff7a18;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.hero-img input {
+    position: absolute;
+    bottom: -15px;
+    right: 25%;
+    width: 50%;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+
+.hero-img svg {
+    position: absolute;
+    left: 25%;
+    bottom: -10px;
+    margin: 0 10px;
+}
+
+.card-container {
+    background: #ebebeb;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 0;
+}
+.card-container h2 {
+    padding: 60px 0 40px 0;
+}
+.cards {
+    background: #ffffff;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.cards img {
+    width: 100%;
+}
+.cards p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.special-container {
+    background: #ebebeb;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.special-container h2 {
+     padding: 100px 0 40px 0;
+}
+.special-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 0 0 60px 0;
+}
+.special {
+    background: #ffffff;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+.special img {
+    width: 100%;
+}
+.text-pad {
+    padding: 10px;
+}
+.text-pad h4 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.text-pad p {
+    font-size: 12px;
+    color: #1f2937;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+} 
+.cart span {
+    font-size: 14px;
+    color: #ff7a18;
+}
+.cart button {
+     background: #ff7a18;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.hero-img1 {
+    position: relative;
+    background-image: url('/img/b1.png');
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-img1 img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.heart1 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    color: #ffffff;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.heart1 h1 {    
+     margin: 10px 0;
+     font-size: 38px;
+     align-self: center;
+}
+.heart1 p {
+    max-width: 450px;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.heart1 button {
+     background: #ff7a18;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+/* footer */
+.footer-container {
+    background-color: #6e2e00;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.footer .about {
+    margin-right: 70px;
+}
+.footer h4 {
+    color: #ffffff;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+.footer h4 span {
+    color: #ff7a18;
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+}
+.footer .quick-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20%;
+}
+.footer .quick-link h4 {
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer .quick-link a {
+    text-decoration: none;
+    color: #cebcaf;
+    font-size: 10px;
+}
+.footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 20%;
+}
+.footer .contact p {
+    color: #cebcaf;
+    font-size: 10px;
+}
+.footer .contact a {
+    text-decoration: none;
+    color: #cebcaf;
+    font-size: 10px;
+}   
+.footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer .social a {
+    text-decoration: none;
+    color: #cebcaf;
+    font-size: 10px;
+}
+.copyright-footer {
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright-footer p {
+    color: #cebcaf;
+    font-size: 10px;
+}
+.copyright-footer svg {
+    background-color: #1E88E5;
+    border-radius: 50px;
+    padding: 6px;
+    margin-right: 20px;
+}
+
+.mobile-svg,
+#mobileHero-img,
+#mobile-view,
+.mobile-hero-img  {
+    display: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+header,
+.hideOnMobile,
+#desktopHero-img,
+.desktop-hero-img {
+        display: none;
+}
+
+#mobileHero-img,
+.menu-button,
+#mobile-view,
+.mobile-hero-img {
+    display: block;
+}
+
+
+.mobile-svg {
+    background: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-svg h1 {
+    font-size: 24px;
+    font-family: 'Island Moments', cursive;
+     color: #ff7a18;
+}
+
+.hero-img {
+    background-image: url('/img/m9.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heart {
+    padding: 0 20px;
+
+}
+.heart h1 {
+    max-width: 800px;
+    margin: 20px 0;
+    font-size: 38px;
+    align-self: center;
+}
+.heart p {
+    max-width: 600px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.heart button {
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+
+.hero-img input {
+    left: 5%;
+    width: 90%;
+}
+.hero-img svg {
+    left: 5%;
+}
+
+.card-container {
+    padding: 20px;
+}
+.card-grid {
+    display: flex;
+    flex-direction: column;
+}
+.cards p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+ .desktop-card {
+    display: none;
+}
+.card-container a,
+.special-container a {
+    font-size: 20px;
+    margin: 40px 0;
+    color: #1E88E5;
+    text-decoration: none;
+}
+
+.special-grid {
+   display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.special-container {
+    padding: 20px 20px;
+    margin-bottom: 40px;
+}
+.text-pad h4 {
+    font-size: 26px;
+}
+.text-pad p {
+    font-size: 18px;
+    color: #1f2937;
+}
+.cart {
+    margin-bottom: 20px;
+}
+.cart span {
+    font-size: 16px;
+}
+.cart button {
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+.hero-img1 {
+    background-image: url('/img/f1.png');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heart1 {
+    padding: 0 20px;
+}
+.heart1 h1 {
+    margin: 10px 0;
+    font-size: 38px;
+    align-self: center;
+}
+.heart1 p {
+    max-width: 450px;
+    font-size: 22px;
+    margin: 5px 0;
+    line-height: 1.5rem;
+}
+.heart1 button {
+    padding: 20px 40px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.footer-container {
+    display: none;
+}
+}

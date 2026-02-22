@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;600;700&display=swap">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+
+    <title>Food Menu</title>
+</head>
+<body>
+    <div class="container">
+
+<!-- this is for desktop header -->
+<header>
+    <div class="header">
+
+         <h1>Chuks Kitchen</h1>
+    <nav>
+        <ul>
+            <li><a href="" class="active hideOnMobile">Home</a></li>
+            <li><a href="" class="hideOnMobile">Explore</a></li>
+            <li><a href="" class="hideOnMobile">My Orders</a></li>
+            <li><a href="" class="hideOnMobile">Account</a></li>
+        </ul>
+        
+    </nav>
+    </div> 
+    <button class="hideOnMobile">Login</button>
+</header>
+
+<!-- this is for mobile header -->
+<div class="mobile-svg">      
+    <h1>Chuks Kitchen</h1>
+   
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 50 50" class="menu-button" onclick=showSidebar()>
+    <path fill="black" d="M10 12h30v4H10zm0 10h30v4H10zm0 10h30v4H10z"/></svg>
+ </div>
+
+ <section>
+    <div class="hero-img">
+ 
+    <div class="img-overlay"></div>
+   
+    <div class="heart">
+        <div>
+        <h1>Chuks Kitchen</h1>
+        <p>chuks Kitchen Nigeria Home Cooking 4.8 (1.2k)</p>  
+        </div>
+    </div>
+    </div>
+</section>
+
+<section>
+    <div class="menu-container">
+    <div class="menu-list-container">
+        <div class="menu-list">
+            <h4>Menu Categories</h4>
+  
+        <div class="food-type">
+            <p class="active">Popular</p>
+            <p>Jollof Rice & Entrees</p>
+            <p>Swallow & Soups</p>
+            <p>Grills & sides</p>
+            <p>Beverages</p>
+            <p>Desserts</p>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section>
+    <div class="popular-container">
+        <h4>Popular</h4>
+
+         <div class="special-grid ">
+            <div class="special">
+                <img src="img/m1.jpg" alt="">
+                <div class="text-pad">
+                <h4>Jollof Rice & Fried Chicken</h4>
+                <p>Our signature jollof rice, served with crispy fried chicken and plantain.</p>
+                <div class="cart">
+                    <span>&#8358;3,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special">
+                <img src="img/r1.png" alt="">
+                <div class="text-pad">
+                <h4>Eba & Egusi Soup (Goat Meat)</h4>
+                <p>Hearty Egusi soup with tender goat meat, served with soft eba.</p>
+                <div class="cart">
+                    <span>&#8358;3,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special">
+                <img src="img/r2.png" alt="">
+                <div class="text-pad">
+                <h4>Pounded Yam & Edikaikong</h4>
+                <p>Traditional pounded yam with rich, leafy Edikaikong soup.</p>
+                <div class="cart">
+                    <span>&#8358;3,800</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special" id="desktop-card">
+                <img src="img/r3.png" alt="">
+                <div class="text-pad">
+                <h4>Peppered Snail</h4>
+                <p>Spicy and savory peppered snail, perfect as a starter.</p>
+                <div class="cart">
+                    <span>&#8358;2,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special" id="desktop-card">
+                <img src="img/r4.png" alt="">
+                <div class="text-pad">
+                <h4>Grilled Tilapia Fish</h4>
+                <p>Whole grilled tilapia seasoned with our special spices.</p>
+                <div class="cart">
+                    <span>&#8358;4,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special" id="desktop-card">
+                <img src="img/m1.jpg" alt="">
+                <div class="text-pad">
+                <h4>Jollof Rice & Fried Chicken</h4>
+                <p>Our signature jollof rice, served with crispy fried chicken and plantain.</p>
+                <div class="cart">
+                    <span>&#8358;3,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a href="" id="mobile-view">View All Specials</a>
+    </div>
+</section>
+
+<section>
+    <div class="popular-container">
+        <h4>Jollof Rice &Entrees</h4>
+
+         <div class="special-grid">
+            <div class="special">
+                <img src="img/r5.png" alt="">
+                <div class="text-pad">
+                <h4>Jollof Rice & Smoked Fish</h4>
+                <p>Flavorful jollof rice served with perfectly smoked fish.</p>
+                <div class="cart">
+                    <span>&#8358;3,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special">
+                <img src="img/m1.jpg" alt="">
+                <div class="text-pad">
+                <h4>Party Jollof Rice (Veg)</h4>
+                <p>Vegeterian Party jollof, full of rich flavors.</p>
+                <div class="cart">
+                    <span>&#8358;2,800</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special">
+                <img src="img/m1.jpg" alt="">
+                <div class="text-pad">
+                 <h4>Party Jollof Rice (Veg)</h4>
+                <p>Vegeterian Party jollof, full of rich flavors.</p>
+                <div class="cart">
+                    <span>&#8358;3,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a href="" id="mobile-view">View All Specials</a>
+    </div>
+</section>
+
+<section>
+    <div class="popular-container">
+        <h4>Swallow & Soups</h4>
+
+         <div class="special-grid">
+            <div class="special">
+                <img src="img/r6.png" alt="">
+                <div class="text-pad">
+                <h4>Amala with Gbegiri & Ewedu</h4>
+                <p>Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.</p>
+                <div class="cart">
+                    <span>&#8358;3,100</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special">
+                <img src="img/r1.png" alt="">
+                <div class="text-pad">
+                <h4>Fufu & Okra Soup (Fish)</h4>
+                <p>Light Fufu served with fresh okra soup and tilapia fish.</p>
+                <div class="cart">
+                    <span>&#8358;3,300</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="special">
+                <img src="img/r1.png" alt="">
+                <div class="text-pad">
+                <h4>Fufu & Okra Soup (Fish)</h4>
+                <p>Light Fufu served with fresh okra soup and tilapia fish.</p>
+                <div class="cart">
+                    <span>&#8358;3,500</span>
+                    <div class="circle">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="toggleIcon">
+                    <line x1="5" y1="12" x2="19" y2="12" stroke-width="2" stroke="#fff"/>
+                    <line id="verticalLine" x1="12" y1="5" x2="12" y2="19" stroke-width="2" stroke="#fff"/>
+                </svg>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a href="" id="mobile-view">View All Specials</a>
+    </div>
+</section>
+
+<div class="just-background"></div>
+
+ <footer class="footer-container">
+        <div class="footer">
+        <div class="about">
+            <h4><span>Chuks Kitchen</span><br>
+            Bringing the authentic <br>
+            flavors of Nigeria <br>
+            home cooking to your <br>
+        table, with passion <br>
+    and care.</h4>
+        </div>
+
+        <div class="quick-link">
+            <h4>Quick Links</h4>
+            <a href="">Home</a>
+            <a href="">Explore</a>
+            <a href="">My Order</a>
+            <a href="">Account</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="contact">
+            <h4>Contact Us</h4>
+            <p>+234 801 234 5678</p>
+            <p></p><a href="">hello@chukskitchen.com</a></p>
+            <p>123 Taste Blvd, Lagos, Nigeria</p>
+        </div>
+        <div class="social">
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Twitter</a></p>
+            <p><a href="">LinkedIn</a></p>
+            <p><a href="">Instagram</a></p>
+        </div>
+        </div>
+         <div class="copyright-footer">
+            <p>&copy; 2024 Lit Media. All rights reserved.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 9 16">
+                <path fill="#fff" d="M4.5 14c-.28 0-.5-.22-.5-.5v-9c0-.28.22-.5.5-.5s.5.22.5.5v9c0 .28-.22.5-.5.5"/>
+                <path fill="#fff" d="M8 7.5a.47.47 0 0 1-.35-.15L4.5 4.2L1.35 7.35c-.2.2-.51.2-.71 0s-.2-.51 0-.71l3.5-3.5c.2-.2.51-.2.71 0l3.5 3.5c.2.2.2.51 0 .71c-.1.1-.23.15-.35.15"/>
+            </svg>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

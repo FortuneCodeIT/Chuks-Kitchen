@@ -1,0 +1,741 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    padding: 10px 40px;
+    max-width: 1400px;
+}
+.header   {
+    display: flex;
+    align-items: center;
+}
+.header h1 {
+    font-family:  'Island Moments', cursive;
+    color: #ff7a18;
+}
+.header ul   {
+     display: flex;
+    align-items: center;
+ 
+}
+.header ul li {
+    padding: 0 60px;
+    list-style: none;
+}
+.header ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+.header ul li a.active {
+    color: #ff7a18;
+}
+
+header button {
+    background: #ff7a18;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 12px;
+}
+
+/* this is the for the mobile nav bar toggle */
+.menu-button {
+    display: none;
+ }
+
+
+ /* this is for delivery html page */
+.delivery-wrapper {
+   margin: 50px auto;
+   max-width: 400px;
+}
+.delivery-card {
+    background: #ffffff;
+    align-items: center;
+    padding: 20px 10px 5px 10px;
+}
+.delivery-card h2 {
+    font-size: 18px;
+}
+.delivery-time {
+    margin: 20px 0;
+}
+.delivery-time p {
+    font-size: 9px;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 5px 0 20px 5px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.address {
+    position: relative;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+.address h5 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.address p {
+    font-size: 9px;
+    max-width: 190px;
+    margin-bottom: 20px;
+}
+.address a {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 9px;
+    text-decoration: none;
+    color: #1E88E5;
+  
+}
+
+
+ /* footer */
+.footer-container {
+    background-color: #6e2e00;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column; 
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.footer .about {
+    margin-right: 70px;
+}
+.footer h4 {
+    color: #ffffff;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+.footer h4 span {
+    color: #ff7a18;
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+}
+.footer .quick-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20%;
+}
+.footer .quick-link h4 {
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer .quick-link a {
+    text-decoration: none;
+    color: #cebcaf;
+    font-size: 10px;
+}
+.footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 20%;
+}
+.footer .contact p {
+    color: #cebcaf;
+    font-size: 10px;
+}
+.footer .contact a {
+    text-decoration: none;
+    color: #cebcaf;
+    font-size: 10px;
+}   
+.footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer .social a {
+    text-decoration: none;
+    color: #cebcaf;
+    font-size: 10px;
+}
+.copyright-footer {
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright-footer p {
+    color: #cebcaf;
+    font-size: 10px;
+}
+.copyright-footer svg {
+    background-color: #1E88E5;
+    border-radius: 50px;
+    padding: 6px;
+    margin-right: 20px;
+}
+
+.mobile-svg {
+    display: none;
+}
+
+
+/* mobile screen for delivery html page */
+@media (max-width: 768px) {
+.menu-button {
+    display: block;
+}
+.mobile-svg {
+    background: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-svg h1 {
+    font-size: 24px;
+    font-family: 'Island Moments', cursive;
+     color: #ff7a18;
+}
+
+.delivery-card h2 {
+    font-size: 38px;
+    margin-top: 40px;
+}
+.delivery-card hr {
+    margin-bottom: 10px;
+}
+.address {
+    display: flex;
+}
+.address p {
+    font-size: 16px;
+    max-width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.address a { 
+    font-size: 16px;
+}
+
+.delivery-time h5 {
+    font-size: 22px;
+}
+.delivery-time p {
+    font-size: 18px;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px 0 20px 10px;
+    margin-top: 14px;
+    border-radius: 6px;
+}
+
+.footer-container,
+header {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* for payment page */
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+}
+
+#radio {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#radio label,input {
+    font-size: 8px;
+    color: #cebcaf;
+    margin: 5px 0;
+}
+
+
+.atm-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.atm-card .atm-input{ 
+    width: 100%;
+}
+.atm-card .atm-input label {
+    color: black;
+    font-size: 10px;
+}
+.atm-card .atm-input input {
+    width: 100%;
+    padding:10px ;
+    border-radius: 6px;
+    border: 1px solid #cebcaf;
+}
+
+.cvv {
+    display: flex;
+    gap: 10px;
+}
+
+.delivery-card input::placeholder {
+    font-size: 10px;
+}
+.delivery-card h1 {
+    font-size: 24px;
+}
+.delivery-card hr {
+    border: 1px solid rgb(209, 209, 209); 
+    margin: 10px 0;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding:0 10px;
+}
+.check-box label {
+    font-size: 12px;
+}
+
+.cta {
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+}
+.cta button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff7a18;
+    color: #ffffff;
+}
+
+.payment-footer {
+    padding: 0 10px;
+}
+.payment-footer p {
+    font-size: 9px;
+    line-height: 1.5;
+    color: #cebcaf;
+    margin-bottom: 5px;
+}
+
+
+/* mobile screen for payment page  */
+@media (max-width: 768px) {
+.delivery-card h1 {
+    font-size: 36px;
+}
+.delivery-card hr {
+    margin: 20px 0;
+}
+.delivery-card h5 {
+    font-size: 18px;
+}
+
+.radio-wrapper {
+    padding: 20px 0;
+    gap: 80px;
+}
+#radio {
+    gap: 5px;
+    padding: 5px 0;
+}
+#radio input {
+    width: 15px;
+    height: 15px;
+}
+#radio label {
+    font-size: 16px;
+}
+
+.atm-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.atm-card .atm-input label {
+    font-size: 18px;
+   margin-top: 20px;
+}
+.atm-card .atm-input input {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.atm-card .atm-input input::placeholder {
+    font-size: 18px;
+}
+
+.check-box {
+    gap: 10px;
+        padding: 0 ;
+}
+.check-box label {
+    font-size: 16px;
+}
+.check-box input {
+    width: 15px;
+    height: 15px;
+}
+
+.cta {
+    padding:20px 0;
+    width: 100%;
+}
+.cta button {
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.payment-footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #cebcaf;
+    margin-bottom: 5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is for order-summary */
+.promo-code {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+.promo-code input {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #cebcaf;
+    border-radius: 4px;
+}
+.promo-code a {
+    background-color: #ff7a18;
+    font-size: 8px;
+    color: #ffffff;
+    padding: 11px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.fee-wrapper {
+    padding: 20px 0 ;
+}
+.fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 4px 0;
+}
+
+.horizontal-line {
+    border:  1px solid #cebcaf;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.fee-total {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.delivery-btn {
+    display: flex;
+    align-items: center;
+    
+}
+.delivery-btn a {
+    text-decoration: none;
+    background-color: #ff7a18;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 10px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.delivery-btn a:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;  
+}
+.delivery-btn a:nth-child(2) {
+    background-color: #cebcaf;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.instructions {
+    margin: 10px 0;
+    width: 100%;
+}
+.instructions h5 {
+    font-weight: 200; 
+    letter-spacing: 0.5px;
+}
+.instructions p {
+    font-size: 10px;
+    border: 1px solid #cebcaf;
+    padding: 5px 5px 30px 5px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.checkout-btn {
+    width: 100%;
+    background-color: #ff7a18;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.checkout-btn a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+/* monile screen for order summary */
+@media (max-width: 768px) {
+.promo-code input {
+    width: 40%;
+    padding:20px 10px ;
+    margin: 10px 0;
+}
+.promo-code input::placeholder {
+    font-size: 16px;
+}
+.promo-code a {
+    font-size: 16px;
+    padding: 16px 30px;
+    width: 60%;
+    text-align: center;
+}
+
+.fee {
+    font-size: 16px;
+    padding: 4px 0;
+    line-height: 1.5;
+}
+
+.fee-total {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.delivery-btn a {
+    padding: 20px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.instructions h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.instructions p {
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #cebcaf;
+    padding: 5px 5px 40px 5px;
+}
+
+.checkout-btn {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.checkout-btn a {
+    font-size: 18px;
+}
+}
+
+
+
+
+
+/* This is for order confirmed */
+.delivery-card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      padding: 20px 30px 5px 30px;
+}
+.delivery-card1 img {
+    width: 50px;
+    height: 50px;
+}
+.delivery-card1 h5 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.delivery-card1 p {
+    font-size: 14px;
+}
+
+.light-circle {
+    width: 12px;
+    height: 12px;
+    background-color: #b2d3b4;
+    border: none;
+    border-radius: 30px;
+    margin: 50px 0;
+}
+
+.track-order {
+    width: 100%;
+}
+.track-order h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.track-btn {
+    background-color: #ff7a18;
+    padding: 10px 0;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+}
+.track-btn a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.receipt {
+    text-align: center;
+    padding: 20px;
+}
+.receipt p {
+    font-size: 12px;
+    color: #aa9d94;
+    margin-bottom: 20px;
+}
+
+.receipt a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    color: #1E88E5;
+}
+
+
+/* mobile screen for order confirmed page */
+@media (max-width: 768px) {
+.delivery-card1 h5 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.delivery-card1 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.light-circle {
+    width: 15px;
+    height: 15px;
+}
+
+.track-order h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 70px;
+}
+.track-btn {
+    padding: 20px 0;
+    border-radius: 8px;
+}
+.track-btn a {
+    font-size: 18px;
+}
+
+.receipt p{
+   font-size: 18px;
+}
+.receipt a{
+   font-size: 18px;
+}
+}
+
+
+
+
+
+/* this is for loading page */
+
+.load {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+
+}
+.load img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    
+}

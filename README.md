@@ -23,7 +23,7 @@ Google Fonts
 
 ##Live Demo
 
-[Click Here](https://fortunecodeit.github.io/chukskitchen/)
+[Click Here](https://fortunecodeit.github.io/chuks-kitchen/)
 
 
 ##Author

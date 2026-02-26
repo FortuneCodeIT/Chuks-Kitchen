@@ -173,7 +173,7 @@ header button {
     display: flex;
     flex-direction: column; 
     max-width: 1400px;
-    margin: 60px auto;
+    margin-top: 60px;
 }
 .footer {
     display: flex;
@@ -581,3 +581,4 @@ header {
 }
 
 }
+
